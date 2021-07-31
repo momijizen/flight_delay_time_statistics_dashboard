@@ -214,9 +214,6 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
                    dcc.Graph(figure=sec_fig), 
                    dcc.Graph(figure=late_fig)]
 
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
 
 # Run the app
 if __name__ == '__main__':
